@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner practice = new Scanner(System.in);
+        int x;
+        String S1, S2, S3;
+
+        System.out.println("Please enter something: ");
+        x = practice.nextInt(); // output: next Integer
+        S1 = practice.next();   // output: next integer or string or character
+        S2 = practice.nextLine(); /*output: the rest of the sentence on the same line,
+                                            if the line is empty then it display nothing */
+        S3 = practice.nextLine(); // move to the rest of the line
+
+        System.out.println("x is " + x);
+        System.out.println("S1 is " + S1);
+        System.out.println("S2 is " + S2);
+        System.out.println("S3 is " + S3);
+
+    }
+}
+
+
+Here is the output when I run the program:
+Please enter something: 
+1 Alexa please play music
+Volume up!
+
+x is 1
+S1 is Alexa
+S2 is  please play music
+S3 is Volume up!
